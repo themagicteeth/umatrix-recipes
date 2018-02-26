@@ -9,7 +9,7 @@ Stackoverflow
 
 		
 Materialize CSS
-	materializecss.com  *
+	materializecss.com *
 		_ fonts.googleapis.com css allow
 		_ fonts.gstatic.com css allow
 		_ lorempixel.com image allow
