@@ -46,7 +46,7 @@ Materialize CSS
 		_ code.jquery.com script
 
 ADP
-	adp.com workforcenow.adp.com *
-		_ cookie
-		_ script
-		_ xhr
+	adp.com *
+		_ workforcenow.adp.com cookie
+		_ workforcenow.adp.com script
+		_ workforcenow.adp.com xhr
