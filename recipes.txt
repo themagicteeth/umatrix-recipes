@@ -1,13 +1,3 @@
-! Title: Rulesets for English websites
-! Maintainer: uMatrix
-!
-! Lines starting with character "!" are ignored.
-! Character "_" is an alias for "currently selected scope".
-! An empty line MUST be used to separate distinct ruleset recipes.
-!
-! Please contribute ruleset recipes for the benefit of all other users:
-! https://github.com/uBlockOrigin/uAssets/tree/master/recipes
-
 Stackoverflow
 	stackoverflow.com *
 		_ cdn.sstatic.net css allow
@@ -16,6 +6,7 @@ Stackoverflow
 		_ i.stack.imgur.com image allow
 		_ stackoverflow.com script allow
 		_ stackoverflow.com xhr allow
+
 
 Materialize CSS
 	materializecss.com  *
