@@ -18,6 +18,12 @@ Firefox Add-ons
 		_ addons.mozilla.org xhr
 		_ addons.mozilla.org cookie
 
+Mozilla Developer Network
+	developer.mozilla.org *
+		_ cdn.mdn.mozilla.net css allow
+		_ cdn.mdn.mozilla.net image allow
+		_ mdn.mozillademos.org image allow
+
 Firefox Accounts
 	accounts.firefox.com *
 		_ accounts-static.cdn.mozilla.net image
@@ -73,3 +79,17 @@ Sitepoint
 		_ cdn-enterprise.discourse.org css
 		_ cdn-enterprise.discourse.org script
 		_ www.sitepoint.com xhr
+
+CSS Tricks
+	css-tricks.com 
+		_ codepen.io css
+		_ codepen.io frame
+		_ codepen.io script
+		_ s3-us-west-2.amazonaws.com image
+
+Creative Bloq	
+	creativebloq.com *
+		_ cdn.mos.cms.futurecdn.net image
+		_ vanilla.futurecdn.net css
+		_ vanilla.futurecdn.net image
+		_ vanilla.futurecdn.net script
