@@ -50,3 +50,14 @@ ADP
 		_ workforcenow.adp.com cookie
 		_ workforcenow.adp.com script
 		_ workforcenow.adp.com xhr
+		
+Reddit
+	reddit.com *
+		_ a.thumbs.redditmedia.com image
+		_ b.thumbs.redditmedia.com image
+		_ reddit.com cookie
+		_ www.reddit.com script
+		_ www.reddit.com xhr
+		_ www.redditstatic.com css
+		_ www.redditstatic.com image
+		_ www.redditstatic.com script
