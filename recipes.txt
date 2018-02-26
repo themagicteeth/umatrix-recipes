@@ -28,6 +28,17 @@ Poloniex
 		! For login
 		poloniex.com cookie
 
+Fidelity
+	fidelity.com *
+		_ dpcs.fidelity.com xhr
+		_ fid-inv.com cookie
+		_ fidelity.com cookie
+		_ fidelity.com script
+		_ login.fidelity.com script
+		_ login.fidelity.com xhr
+		_ oltx.fidelity.com xhr
+		_ www.fid-inv.com *
+
 Firefox Add-ons
 	addons.mozilla.org *
 		_ addons-amo.cdn.mozilla.net css
