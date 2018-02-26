@@ -6,7 +6,6 @@ Stackoverflow
 		_ i.stack.imgur.com image
 		_ stackoverflow.com script
 		_ stackoverflow.com xhr
-
 		
 Materialize CSS
 	materializecss.com *
