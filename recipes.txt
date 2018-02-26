@@ -19,7 +19,7 @@
 Vue JS
 	vuejs.org *
 		_ cdn.jsdelivr.net script
-		_ vuejs.org vuejs.org script
+		_ vuejs.org script
 
 Firefox Add-ons
 	addons.mozilla.org *
