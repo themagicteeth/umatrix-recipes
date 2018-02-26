@@ -21,6 +21,13 @@ Vue JS
 		_ cdn.jsdelivr.net script
 		_ vuejs.org script
 
+Poloniex
+	poloniex.com * 
+		poloniex.com script
+		poloniex.com xhr
+		! For login
+		poloniex.com cookie
+
 Firefox Add-ons
 	addons.mozilla.org *
 		_ addons-amo.cdn.mozilla.net css
@@ -28,7 +35,6 @@ Firefox Add-ons
 		_ addons-amo.cdn.mozilla.net script
 		_ addons.cdn.mozilla.net image
 		_ addons.mozilla.org xhr
-		c
 		_ addons.mozilla.org cookie
 
 Mozilla Developer Network
@@ -81,13 +87,12 @@ Reddit
 	reddit.com *
 		_ a.thumbs.redditmedia.com image
 		_ b.thumbs.redditmedia.com image
+		_ reddit.com cookie
 		_ www.reddit.com script
 		_ www.reddit.com xhr
 		_ www.redditstatic.com css
 		_ www.redditstatic.com image
 		_ www.redditstatic.com script
-		! For login
-		_ reddit.com cookie
 
 ProtonMail
 	protonmail.com *
