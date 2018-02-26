@@ -34,7 +34,6 @@ Dropbox
 		_ cfl.dropboxstatic.com css
 		_ cfl.dropboxstatic.com image
 		_ cfl.dropboxstatic.com script
-		_ cfl.dropboxstatic.com xhr
 		_ dl.dropboxusercontent.com frame
 		_ www.dropbox.com cookie
 		_ www.dropbox.com script
