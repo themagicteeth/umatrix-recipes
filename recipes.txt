@@ -1,4 +1,3 @@
-! uMatrix: Ruleset recipes 1.0
 ! Title: Rulesets for English websites
 ! Maintainer: uMatrix
 !
@@ -14,6 +13,17 @@ Stackoverflow
 		_ cdn.sstatic.net css allow
 		_ cdn.sstatic.net image allow
 		_ cdn.sstatic.net script allow
+		_ i.stack.imgur.com image allow
+		_ stackoverflow.com script allow
+		_ stackoverflow.com xhr allow
+
+Materialize CSS
+	materializecss.com  *
+		_ fonts.googleapis.com css allow
+		_ fonts.gstatic.com css allow
+		_ lorempixel.com image allow
+		_ materializecss.com media allow
+		_ materializecss.com script allow
 		_ i.stack.imgur.com image allow
 		_ stackoverflow.com script allow
 		_ stackoverflow.com xhr allow
