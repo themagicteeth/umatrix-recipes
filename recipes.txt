@@ -1,13 +1,19 @@
-! uMatrix: Ruleset recipes 1.0
-! Title: Rulesets for English websites
-! Maintainer: uMatrix
+! Title: uMatrix Recipes
+! Maintainer: themagicteeth
+!
+! Assumes the following rules in place:
+!
+!	https-strict: * true
+!	no-workers: * true
+!	noscript-spoof: * true
+!	referrer-spoof: * true
+!	* * * block
+!	* 1st-party css allow
+!	* 1st-party image allow
 !
 ! Lines starting with character "!" are ignored.
 ! Character "_" is an alias for "currently selected scope".
 ! An empty line MUST be used to separate distinct ruleset recipes.
-!
-! Please contribute ruleset recipes for the benefit of all other users:
-! https://github.com/uBlockOrigin/uAssets/tree/master/recipes
 
 Firefox Add-ons
 	addons.mozilla.org *
@@ -56,6 +62,13 @@ ADP
 		_ workforcenow.adp.com cookie
 		_ workforcenow.adp.com script
 		_ workforcenow.adp.com xhr
+
+
+FreeCodeCamp Blog		
+	medium.freecodecamp.org *
+		_ cdn-images-1.medium.com image
+		_ cdn-static-1.medium.com css
+		_ glyph.medium.com css
 
 Reddit
 	reddit.com *
