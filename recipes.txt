@@ -17,7 +17,7 @@ Firefox Add-ons
 		_ addons.cdn.mozilla.net image
 		_ addons.mozilla.org xhr
 		_ addons.mozilla.org cookie
-		
+
 Firefox Accounts
 	accounts.firefox.com *
 		_ accounts-static.cdn.mozilla.net image
@@ -26,7 +26,7 @@ Firefox Accounts
 		_ accounts.firefox.com xhr
 		_ firefoxusercontent.com image
 		firefox.com accounts-static.cdn.mozilla.net css
-		
+
 Stackoverflow
 	stackoverflow.com *
 		_ cdn.sstatic.net css
@@ -35,7 +35,7 @@ Stackoverflow
 		_ i.stack.imgur.com image
 		_ stackoverflow.com script
 		_ stackoverflow.com xhr
-	
+
 Materialize CSS
 	materializecss.com *
 		_ fonts.googleapis.com css
@@ -50,7 +50,7 @@ ADP
 		_ workforcenow.adp.com cookie
 		_ workforcenow.adp.com script
 		_ workforcenow.adp.com xhr
-		
+
 Reddit
 	reddit.com *
 		_ a.thumbs.redditmedia.com image
@@ -61,9 +61,15 @@ Reddit
 		_ www.redditstatic.com css
 		_ www.redditstatic.com image
 		_ www.redditstatic.com script
-		
+
 ProtonMail
 	protonmail.com *
 		_ mail.protonmail.com cookie
 		_ mail.protonmail.com script
 		_ mail.protonmail.com xhr
+
+Sitepoint
+	sitepoint.com *
+		_ cdn-enterprise.discourse.org css
+		_ cdn-enterprise.discourse.org script
+		_ www.sitepoint.com xhr
