@@ -65,6 +65,9 @@ Mozilla Developer Network
 	developer.mozilla.org *
 		_ cdn.mdn.mozilla.net css
 		_ cdn.mdn.mozilla.net image
+    _ mdn.mozilla.net script
+    _ mdn.mozillademos.org frame
+    _ mdm.mozillademos.org script
 		_ mdn.mozillademos.org image
 
 Firefox Accounts
