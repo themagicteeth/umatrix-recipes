@@ -1,19 +1,18 @@
 Stackoverflow
 	stackoverflow.com *
-		_ cdn.sstatic.net css allow
-		_ cdn.sstatic.net image allow
-		_ cdn.sstatic.net script allow
-		_ i.stack.imgur.com image allow
-		_ stackoverflow.com script allow
-		_ stackoverflow.com xhr allow
+		_ cdn.sstatic.net css
+		_ cdn.sstatic.net image
+		_ cdn.sstatic.net script
+		_ i.stack.imgur.com image
+		_ stackoverflow.com script
+		_ stackoverflow.com xhr
 
 		
 Materialize CSS
 	materializecss.com *
-		_ fonts.googleapis.com css allow
-		_ fonts.gstatic.com css allow
-		_ lorempixel.com image allow
-		_ materializecss.com media allow
-		_ materializecss.com script allow
-		_ code.jquery.com script allow
-		
+		_ fonts.googleapis.com css
+		_ fonts.gstatic.com css
+		_ lorempixel.com image
+		_ materializecss.com media
+		_ materializecss.com script
+		_ code.jquery.com script
