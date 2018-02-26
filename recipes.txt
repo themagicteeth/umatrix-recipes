@@ -1,3 +1,4 @@
+! uMatrix: Ruleset recipes 1.0
 ! Title: uMatrix Recipes
 ! Maintainer: themagicteeth
 !
@@ -14,6 +15,11 @@
 ! Lines starting with character "!" are ignored.
 ! Character "_" is an alias for "currently selected scope".
 ! An empty line MUST be used to separate distinct ruleset recipes.
+
+Vue JS
+	vuejs.org *
+		_ cdn.jsdelivr.net script
+		_ vuejs.org vuejs.org script
 
 Firefox Add-ons
 	addons.mozilla.org *
