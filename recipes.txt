@@ -24,6 +24,3 @@ Materialize CSS
 		_ lorempixel.com image allow
 		_ materializecss.com media allow
 		_ materializecss.com script allow
-		_ i.stack.imgur.com image allow
-		_ stackoverflow.com script allow
-		_ stackoverflow.com xhr allow
