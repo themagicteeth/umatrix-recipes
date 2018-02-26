@@ -9,7 +9,7 @@
 ! Please contribute ruleset recipes for the benefit of all other users:
 ! https://github.com/uBlockOrigin/uAssets/tree/master/recipes
 
-stackoverflow.com 
+stackoverflow.com *
 	_ cdn.sstatic.net css allow
 	_ cdn.sstatic.net image allow
 	_ cdn.sstatic.net script allow
