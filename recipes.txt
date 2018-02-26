@@ -9,6 +9,24 @@
 ! Please contribute ruleset recipes for the benefit of all other users:
 ! https://github.com/uBlockOrigin/uAssets/tree/master/recipes
 
+Firefox Add-ons
+	addons.mozilla.org *
+		_ addons-amo.cdn.mozilla.net css
+		_ addons-amo.cdn.mozilla.net image
+		_ addons-amo.cdn.mozilla.net script
+		_ addons.cdn.mozilla.net image
+		_ addons.mozilla.org xhr
+		_ addons.mozilla.org cookie
+		
+Firefox Accounts
+	accounts.firefox.com *
+		_ accounts-static.cdn.mozilla.net image
+		_ accounts-static.cdn.mozilla.net script
+		_ accounts.firefox.com cookie
+		_ accounts.firefox.com xhr
+		_ firefoxusercontent.com image
+		firefox.com accounts-static.cdn.mozilla.net css
+		
 Stackoverflow
 	stackoverflow.com *
 		_ cdn.sstatic.net css
@@ -17,7 +35,6 @@ Stackoverflow
 		_ i.stack.imgur.com image
 		_ stackoverflow.com script
 		_ stackoverflow.com xhr
-		_ ajax.googleapis.com script
 	
 Materialize CSS
 	materializecss.com *
