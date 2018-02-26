@@ -20,9 +20,9 @@ Firefox Add-ons
 
 Mozilla Developer Network
 	developer.mozilla.org *
-		_ cdn.mdn.mozilla.net css allow
-		_ cdn.mdn.mozilla.net image allow
-		_ mdn.mozillademos.org image allow
+		_ cdn.mdn.mozilla.net css
+		_ cdn.mdn.mozilla.net image
+		_ mdn.mozillademos.org image
 
 Firefox Accounts
 	accounts.firefox.com *
