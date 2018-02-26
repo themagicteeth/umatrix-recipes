@@ -28,6 +28,14 @@ Poloniex
 		! For login
 		poloniex.com cookie
 
+Dropbox
+	dropbox.com *
+		_ 127.0.0.1 xhr
+		_ cfl.dropboxstatic.com script
+		_ cfl.dropboxstatic.com xhr
+		_ dl.dropboxusercontent.com frame
+		_ www.dropboxstatic.com script
+
 Fidelity
 	fidelity.com *
 		_ dpcs.fidelity.com xhr
