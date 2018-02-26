@@ -44,3 +44,9 @@ Materialize CSS
 		_ materializecss.com media
 		_ materializecss.com script
 		_ code.jquery.com script
+
+ADP
+	adp.com workforcenow.adp.com *
+		_ cookie
+		_ script
+		_ xhr
