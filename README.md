@@ -1,4 +1,12 @@
-# umatrix-recipes
+# uMatrix Recipes
+This repository is a set of uMatrix recipes that I have made and are ready to be imported into
+uMatrix.
+
+Recipes are a feature being introduced to [uMatrix](https://github.com/gorhill/uMatrix) as described on the 
+releases page:
+> uMatrix will offer you the ability to import community-contributed 
+ruleset recipes which are relevant to the current page
+
 ## Requirements
 1. Firefox Nightly or Developer Edition 
     * must be able to install unsigned extensions
@@ -41,3 +49,4 @@ referrer-spoof: * true
 [uMatrix Rules - Site Level](https://github.com/uMatrix-Rules/uMatrix-Rules-Site)    
 [Official Recipes for uMatrix](https://github.com/uBlockOrigin/uAssets/blob/master/recipes/recipes_en.txt)    
 [Reddit Recipes Thread](https://www.reddit.com/r/uMatrix/comments/7v5zrq/recipes/)    
+[uMatrix Issue Discussion about Recipes](https://github.com/gorhill/uMatrix/issues/30)    
