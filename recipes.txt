@@ -343,6 +343,12 @@ Sitepoint
     _ cdn-enterprise.discourse.org script
     _ www.sitepoint.com xhr
 
+New York Times
+  nytimes.com *
+    _ g1.nyt.com script
+    _ nyt.com css
+    _ nyt.com image
+
 CSS Tricks
   css-tricks.com
     _ codepen.io css
