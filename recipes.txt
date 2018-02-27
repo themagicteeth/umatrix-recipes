@@ -82,6 +82,13 @@ Fidelity
     _ oltx.fidelity.com xhr
     _ www.fid-inv.com *
 
+DeployHQ
+  deployhq.com *
+    _ deployhq.com cookie
+    _ deployhq.com script
+    _ deployhq.com xhr
+    _ websocket.deployhq.com xhr
+
 GitHub
   github.com *
     _ assets-cdn.github.com css
