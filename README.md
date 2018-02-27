@@ -4,7 +4,7 @@
     * must be able to install unsigned extensions
 2. uMatrix Beta
 
-## Setup
+## Installing uMatrix Beta
 Currently recipes are only supported in the beta version of uMatrix which is not on the add-on store yet.    
 [Download the beta version here](https://github.com/gorhill/uMatrix/releases)  
     
