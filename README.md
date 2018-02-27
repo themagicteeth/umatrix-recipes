@@ -7,6 +7,8 @@ releases page:
 > uMatrix will offer you the ability to import community-contributed 
 ruleset recipes which are relevant to the current page
 
+I am no rule making expert, but my goal with this is to update for every site that I create rules for. It is mostly for personal use so certain sites are configured for logins, and for English versions of domains.
+
 ## Requirements
 1. Firefox Nightly or Developer Edition 
     * must be able to install unsigned extensions
