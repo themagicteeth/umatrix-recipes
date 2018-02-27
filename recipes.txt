@@ -65,9 +65,9 @@ Mozilla Developer Network
 	developer.mozilla.org *
 		_ cdn.mdn.mozilla.net css
 		_ cdn.mdn.mozilla.net image
-    _ mdn.mozilla.net script
-    _ mdn.mozillademos.org frame
-    _ mdm.mozillademos.org script
+                _ mdn.mozilla.net script
+                _ mdn.mozillademos.org frame
+                _ mdm.mozillademos.org script
 		_ mdn.mozillademos.org image
 
 Firefox Accounts
@@ -87,17 +87,17 @@ Stackoverflow
 		_ i.stack.imgur.com image
 		_ stackoverflow.com script
 		_ stackoverflow.com xhr
-    ! Gets rid of annoying enable javascript banner
-    noscript-spoof: _ false
+                ! Gets rid of annoying enable javascript banner
+                noscript-spoof: _ false
 
 Stackexchange
-  stackexchange.com * 
-    _ 1st-party * 
-    _ cdn.sstatic.net * 
-    _ cdn.sstatic.net script 
-    _ ajax.googleapis.com script
-    ! Gets rid of annoying enable javascript banner                      
-    noscript-spoof: _ false
+       stackexchange.com * 
+              _ 1st-party * 
+              _ cdn.sstatic.net * 
+              _ cdn.sstatic.net script 
+              _ ajax.googleapis.com script
+              ! Gets rid of annoying enable javascript banner                      
+              noscript-spoof: _ false
 
 Materialize CSS
 	materializecss.com *
