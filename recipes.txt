@@ -310,7 +310,7 @@ Creative Bloq
     _ vanilla.futurecdn.net script
 
 Scotch.io
-  scotch.io
+  scotch.io *
     _ scotch.io script allow
 
 Yelp

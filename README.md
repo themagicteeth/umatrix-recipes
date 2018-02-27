@@ -42,6 +42,14 @@ noscript-spoof: * true
 referrer-spoof: * true
 ```
 
+## Using a recipe
+To use a recipe, simply click the puzzle piece icon on a site that has a recipe. The puzzle piece
+will change from grey to blue on sites that have a ruleset. To view the rules click the sitename and then apply
+them by clicking the lock icon.
+
+![Applying a recipe](https://github.com/themagicteeth/umatrix-recipes/raw/master/imgs/ApplyingRecipe.JPG "Applying a recipe")
+
+
 ## Resources    
 [uMatrix Examples of Useful Rulesets](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets)    
 [uMatrix Recipes](https://github.com/kristerkari/umatrix-recipes)    
