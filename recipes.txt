@@ -100,23 +100,35 @@ Firefox Accounts
 
 Stackoverflow
   stackoverflow.com *
-    _ cdn.sstatic.net css
-    _ cdn.sstatic.net image
-    _ cdn.sstatic.net script
+    _ cdn.sstatic.net *
     _ i.stack.imgur.com image
     _ stackoverflow.com script
     _ stackoverflow.com xhr
     ! Gets rid of annoying enable javascript banner
     noscript-spoof: _ false
 
+Bitwarden
+  bitwarden.com *
+    _ ajax.googleapis.com script
+    _ bitwarden.com cookie
+    _ js.braintreegateway.com script
+    _ maxcdn.bootstrapcdn.com css
+    _ vault.bitwarden.com script
+    _ vault.bitwarden.com xhr
+
+NexusMods
+  nexusmods.com *
+    1st-party script
+    www.nexusmods.com xhr
+    ! For login
+    nexusmods.com cookie
+
 Stackexchange
   stackexchange.com *
     _ cdn.sstatic.net *
-    _ cdn.sstatic.net script
     _ ajax.googleapis.com script
-    _ *.stackexchange.com script
-    _ *.stackexchange.com xhr
-    _ cdn.sstatic.net image
+    _ stackexchange.com script
+    _ stackexchange.com xhr
     ! Gets rid of annoying enable javascript banner
     noscript-spoof: _ false
 
@@ -129,12 +141,27 @@ Materialize CSS
     _ materializecss.com script
     _ code.jquery.com script
 
+GitLab
+  gitlab.com *
+    _ 1st-party script allow
+    _ 1st-party xhr allow
+    _ gitlab-static.net css allow
+    _ gitlab-static.net image allow
+    _ gitlab-static.net script allow
+
 ADP
   adp.com *
     _ workforcenow.adp.com cookie
     _ workforcenow.adp.com script
     _ workforcenow.adp.com xhr
 
+Twitter
+  twitter.com *
+    _ abs.twimg.com script
+    _ ton.twimg.com script
+    _ twitter.com *
+    _ video.twimg.com plugin
+    _ video.twimg.com xhr
 
 FreeCodeCamp Blog
   medium.freecodecamp.org *
@@ -178,3 +205,7 @@ Creative Bloq
     _ vanilla.futurecdn.net css
     _ vanilla.futurecdn.net image
     _ vanilla.futurecdn.net script
+
+Scotch.io
+  scotch.io
+    _ scotch.io script allow
