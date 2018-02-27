@@ -99,6 +99,13 @@ Ars Technica
     _ cdn.arstechnica.net image
     _ cdn.arstechnica.net script
 
+YouTube
+  youtube.com *
+    _ google.com script allow
+    _ googlevideo.com xhr allow
+    _ s.ytimg.com script allow
+    _ s.ytimg.com xhr allow
+
 GitHub
   github.com *
     _ assets-cdn.github.com css
