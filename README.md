@@ -5,21 +5,23 @@ Recipes for uMatrix
 ### Matrix
 ![uMatrix Global Configuration](https://github.com/themagicteeth/umatrix-recipes/raw/master/imgs/uMatrixGloablConfig.JPG "uMatrix Global Configuration")
  
- This translates to the following rules:
-  
-    * * * block
-    * 1st-party css allow
-    * 1st-party image allow
+This translates to the following rules:
+```
+* * * block
+* 1st-party css allow
+* 1st-party image allow
+```
 
 ### Switches
 ![uMatrix Global Switches](https://github.com/themagicteeth/umatrix-recipes/raw/master/imgs/uMatrixGloablSwitches.JPG "uMatrix Global Switches")
 
 This translates to the following rules:
-
-    https-strict: * true
-    no-workers: * true
-    noscript-spoof: * true
-    referrer-spoof: * true
+```
+https-strict: * true
+no-workers: * true
+noscript-spoof: * true
+referrer-spoof: * true
+```
 
 ## Resources    
 [uMatrix Examples of Useful Rulesets](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets)    
