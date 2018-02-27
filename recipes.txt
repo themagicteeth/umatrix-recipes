@@ -21,6 +21,17 @@ Dunwoody
     _ adfs.dunwoody.edu cookie
     _ adfs.dunwoody.edu script
 
+Tachyons
+ tachyons.io *
+    _ unpkg.com css
+    _ 1st-party script
+    _ mrmrs.github.io image
+
+Imgur
+  imgur.com *
+    _ i.imgur.com script
+    _ s.imgur.com script
+
 Canvas
   instructure.com *
     _ canvasservices.evaluationkit.com script
@@ -70,6 +81,18 @@ Fidelity
     _ login.fidelity.com xhr
     _ oltx.fidelity.com xhr
     _ www.fid-inv.com *
+
+JellyKey
+   jellykey.com *
+    _ ajax.googleapis.com script
+    _ shopify.com css
+    _ shopify.com image
+    _ shopify.com script
+    _ squarespace.com css
+    _ squarespace.com script
+    _ static1.squarespace.com image
+    _ store.jellykey.com script
+    _ www.jellykey.com script
 
 Firefox Add-ons
   addons.mozilla.org *
@@ -143,11 +166,11 @@ Materialize CSS
 
 GitLab
   gitlab.com *
-    _ 1st-party script allow
-    _ 1st-party xhr allow
-    _ gitlab-static.net css allow
-    _ gitlab-static.net image allow
-    _ gitlab-static.net script allow
+    _ 1st-party script
+    _ 1st-party xhr
+    _ gitlab-static.net css
+    _ gitlab-static.net image
+    _ gitlab-static.net script
 
 ADP
   adp.com *
@@ -157,16 +180,16 @@ ADP
 
 Twitter
   twitter.com *
-    _ abs-0.twimg.com script allow
-    _ abs.twimg.com script allow
-    _ api.twitter.com xhr allow
-    _ a.twimg.com css allow
-    _ ma.twimg.com image allow
-    _ mobile.twitter.com script allow
-    _ pbs.twimg.com image allow
-    _ ton.twimg.com script allow
-    _ twitter.com cookie allow
-    _ video.twimg.com * allow
+    _ abs-0.twimg.com script
+    _ abs.twimg.com script
+    _ api.twitter.com xhr
+    _ a.twimg.com css
+    _ ma.twimg.com image
+    _ mobile.twitter.com script
+    _ pbs.twimg.com image
+    _ ton.twimg.com script
+    _ twitter.com cookie
+
 
 FreeCodeCamp Blog
   medium.freecodecamp.org *
@@ -198,7 +221,7 @@ Sitepoint
     _ www.sitepoint.com xhr
 
 CSS Tricks
-  css-tricks.com 
+  css-tricks.com
     _ codepen.io css
     _ codepen.io frame
     _ codepen.io script
@@ -214,3 +237,12 @@ Creative Bloq
 Scotch.io
   scotch.io
     _ scotch.io script allow
+
+Yelp
+  yelp.com *
+    _ ajax.googleapis.com script
+    _ maps.googleapis.com image
+    _ www.yelp.com xhr
+    _ yelpcdn.com css
+    _ yelpcdn.com image
+    _ yelpcdn.com script
