@@ -1,5 +1,6 @@
 # umatrix-recipes
 Recipes for uMatrix    
+![uMatrix Global Configuration](https://github.com/themagicteeth/umatrix-recipes/raw/master/imgs/uMatrixGloablConfig.JPG "uMatrix Global Configuration")
 
 ## Resources    
 [uMatrix Examples of Useful Rulesets](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets)    
