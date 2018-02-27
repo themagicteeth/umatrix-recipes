@@ -181,6 +181,16 @@ Google
     _ www.gstatic.com image
     _ encrypted-tbn0.gstatic.com image
 
+CapitalOne
+  capitalone.com *
+    _ bfp.capitalone.com script
+    _ capitalone.com cookie
+    _ myaccounts.capitalone.com script
+    _ myaccounts.capitalone.com xhr
+    _ verified.capitalone.com script
+    _ verified.capitalone.com xhr
+    _ www.capitalone.com script
+
 Gfycat
   gfycat.com *
     _ cdn.ampproject.org script
