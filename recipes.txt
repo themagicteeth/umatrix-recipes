@@ -165,6 +165,22 @@ Firefox Accounts
     _ firefoxusercontent.com image
     firefox.com accounts-static.cdn.mozilla.net css
 
+Google
+  google.com *
+    _ 1st-party script
+    _ ggpht.com image
+    _ googleusercontent.com image
+    _ kh.google.com xhr
+    _ maps.googleapis.com *
+    _ maps.gstatic.com image
+    _ ssl.gstatic.com image
+    _ www.google.com cookie
+    _ www.google.com xhr
+    _ www.gstatic.com script
+    _ www.gstatic.com xhr
+    _ www.gstatic.com image
+    _ encrypted-tbn0.gstatic.com image
+
 Stackoverflow
   stackoverflow.com *
     _ cdn.sstatic.net *
