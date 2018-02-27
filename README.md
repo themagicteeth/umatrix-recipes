@@ -1,7 +1,7 @@
 # umatrix-recipes
 ## Requirements
 1. Firefox Nightly or Developer Edition 
-  * must be able to install unsigned extensions
+    * must be able to install unsigned extensions
 2. uMatrix Beta
 
 ## Setup
@@ -9,8 +9,9 @@ Currently recipes are only supported in the beta version of uMatrix which is not
 [Download the beta version here](https://github.com/gorhill/uMatrix/releases)  
     
 Before installing an about:config flag must be set.    
-[Click here, and set the value to false](about:config?filter=xpinstall.signatures.required)
-    
+1. Copy this into the URL bar: about:config?filter=xpinstall.signatures.required
+2. Set it to false
+
 ## These rules expect uMatrix to be configured globally the following way:
 ### Matrix
 ![uMatrix Global Configuration](https://github.com/themagicteeth/umatrix-recipes/raw/master/imgs/uMatrixGloablConfig.JPG "uMatrix Global Configuration")
