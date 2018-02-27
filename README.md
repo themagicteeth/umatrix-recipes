@@ -2,7 +2,7 @@
 Recipes for uMatrix    
 
 ## These rules expect uMatrix to be configured globally the following way:
-#### Matrix
+### Matrix
 ![uMatrix Global Configuration](https://github.com/themagicteeth/umatrix-recipes/raw/master/imgs/uMatrixGloablConfig.JPG "uMatrix Global Configuration")
  
  This translates to the following rules:
@@ -11,7 +11,7 @@ Recipes for uMatrix
     * 1st-party css allow
     * 1st-party image allow
 
-#### Switches
+### Switches
 ![uMatrix Global Switches](https://github.com/themagicteeth/umatrix-recipes/raw/master/imgs/uMatrixGloablSwitches.JPG "uMatrix Global Switches")
 
 This translates to the following rules:
