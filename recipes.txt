@@ -172,6 +172,39 @@ GitLab
     _ gitlab-static.net image
     _ gitlab-static.net script
 
+BBC
+  bbc.com *
+    _ ichef.bbci.co.uk image
+    _ mvt.api.bbc.com xhr
+    _ mybbc.files.bbci.co.uk css
+    _ mybbc.files.bbci.co.uk image
+    _ mybbc.files.bbci.co.uk script
+    _ nav.files.bbci.co.uk css
+    _ nav.files.bbci.co.uk image
+    _ nav.files.bbci.co.uk script
+    _ search-suggest.api.bbci.co.uk xhr
+    _ search.files.bbci.co.uk script
+    _ ssl.bbc.co.uk xhr
+    _ static.bbc.co.uk css
+    _ static.bbc.co.uk image
+    _ static.bbc.co.uk script
+    _ static.bbci.co.uk css
+    _ static.bbci.co.uk image
+    _ static.bbci.co.uk script
+    _ www.bbc.co.uk script
+    _ www.bbc.com script
+    _ www.bbc.com xhr
+
+Kickstarter
+  kickstarter.com *
+    _ a248.e.akamai.net script
+    _ d3mlfyygrfdi2i.cloudfront.net plugin
+    _ js.stripe.com frame
+    _ js.stripe.com script
+    _ ksr-video.imgix.net plugin
+    _ s3.amazonaws.com image
+    _ s3.amazonaws.com plugin
+
 ADP
   adp.com *
     _ workforcenow.adp.com cookie
