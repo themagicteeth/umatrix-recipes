@@ -86,9 +86,9 @@ GitHub
   github.com *
     _ 1st-party script
     _ github-production-user-asset-6210df.s3.amazonaws.com xhr
-    _ githubusercontent.com xhr allow
-    _ render.githubusercontent.com frame allow
-    _ render.githubusercontent.com script allow
+    _ githubusercontent.com xhr
+    _ render.githubusercontent.com frame
+    _ render.githubusercontent.com script
     _ github.com xhr
     _ githubapp.com *
     _ githubusercontent.com *
