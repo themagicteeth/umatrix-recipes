@@ -89,6 +89,10 @@ DeployHQ
     _ deployhq.com xhr
     _ websocket.deployhq.com xhr
 
+Wikipedia
+  wikipedia.org *
+    _ upload.wikimedia.org image
+
 GitHub
   github.com *
     _ assets-cdn.github.com css
