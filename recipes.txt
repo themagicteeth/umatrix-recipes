@@ -187,6 +187,22 @@ Gfycat
     _ gfycat.com script
     _ giant.gfycat.com media
 
+Packagist
+  packagist.org *
+    _ cdn.jsdelivr.net script
+    _ m58222sh95-1.algolianet.com xhr
+    _ packagist.org script
+
+NPM
+  npmjs.com *
+    _ www.npmjs.com script
+    _ www.npmjs.com xhr
+
+Terminal.sexy
+  terminal.sexy *
+    _ terminal.sexy script
+    _ terminal.sexy xhr
+
 Stackoverflow
   stackoverflow.com *
     _ cdn.sstatic.net *
