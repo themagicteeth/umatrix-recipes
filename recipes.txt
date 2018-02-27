@@ -82,6 +82,19 @@ Fidelity
     _ oltx.fidelity.com xhr
     _ www.fid-inv.com *
 
+GitHub
+  github.com *
+    _ 1st-party script
+    _ github-production-user-asset-6210df.s3.amazonaws.com xhr
+    _ githubusercontent.com xhr allow
+    _ render.githubusercontent.com frame allow
+    _ render.githubusercontent.com script allow
+    _ github.com xhr
+    _ githubapp.com *
+    _ githubusercontent.com *
+    ! For login
+    _ github.com cookie
+
 JellyKey
    jellykey.com *
     _ ajax.googleapis.com script
@@ -182,8 +195,6 @@ BBC
     _ nav.files.bbci.co.uk css
     _ nav.files.bbci.co.uk image
     _ nav.files.bbci.co.uk script
-    _ search-suggest.api.bbci.co.uk xhr
-    _ search.files.bbci.co.uk script
     _ ssl.bbc.co.uk xhr
     _ static.bbc.co.uk css
     _ static.bbc.co.uk image
