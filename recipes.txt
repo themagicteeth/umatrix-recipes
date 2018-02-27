@@ -93,6 +93,12 @@ Wikipedia
   wikipedia.org *
     _ upload.wikimedia.org image
 
+Ars Technica
+  arstechnica.com *
+    _ cdn.arstechnica.net css
+    _ cdn.arstechnica.net image
+    _ cdn.arstechnica.net script
+
 GitHub
   github.com *
     _ assets-cdn.github.com css
