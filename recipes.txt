@@ -106,10 +106,10 @@ Ars Technica
 
 YouTube
   youtube.com *
-    _ google.com script allow
-    _ googlevideo.com xhr allow
-    _ s.ytimg.com script allow
-    _ s.ytimg.com xhr allow
+    _ google.com script
+    _ googlevideo.com xhr
+    _ s.ytimg.com script
+    _ s.ytimg.com xhr
 
 GitHub
   github.com *
