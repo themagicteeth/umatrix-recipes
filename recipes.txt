@@ -111,7 +111,6 @@ Stackoverflow
 
 Stackexchange
   stackexchange.com *
-    _ 1st-party *
     _ cdn.sstatic.net *
     _ cdn.sstatic.net script
     _ ajax.googleapis.com script
