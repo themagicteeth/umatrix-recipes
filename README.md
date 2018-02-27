@@ -6,7 +6,7 @@
 
 ## Installing uMatrix Beta
 Currently recipes are only supported in the beta version of uMatrix which is not on the add-on store yet.    
-[Download the beta version here](https://github.com/gorhill/uMatrix/releases)  
+* [Download the beta version here](https://github.com/gorhill/uMatrix/releases)  
     
 Before installing an about:config flag must be set.    
 1. Copy this into the URL bar: `about:config?filter=xpinstall.signatures.required`
