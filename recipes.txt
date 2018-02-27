@@ -181,6 +181,12 @@ Google
     _ www.gstatic.com image
     _ encrypted-tbn0.gstatic.com image
 
+Gfycat
+  gfycat.com *
+    _ cdn.ampproject.org script
+    _ gfycat.com script
+    _ giant.gfycat.com media
+
 Stackoverflow
   stackoverflow.com *
     _ cdn.sstatic.net *
