@@ -90,6 +90,7 @@ GitHub
     _ github-production-upload-manifest-file-7fdce7.s3.amazonaws.com xhr
     _ github-production-user-asset-6210df.s3.amazonaws.com xhr
     _ raw.githubusercontent.com xhr
+    _ raw.githubusercontent.com image
     _ render.githubusercontent.com frame
     _ render.githubusercontent.com script
     _ render.githubusercontent.com xhr
