@@ -93,6 +93,11 @@ Wikipedia
   wikipedia.org *
     _ upload.wikimedia.org image
 
+CodePen
+  codepen.io *
+    _ codepen.io script
+    _ codepen.io xhr
+
 Ars Technica
   arstechnica.com *
     _ cdn.arstechnica.net css
