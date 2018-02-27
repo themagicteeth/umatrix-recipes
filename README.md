@@ -9,8 +9,8 @@ Currently recipes are only supported in the beta version of uMatrix which is not
 [Download the beta version here](https://github.com/gorhill/uMatrix/releases)  
     
 Before installing an about:config flag must be set.    
-1. Copy this into the URL bar: about:config?filter=xpinstall.signatures.required
-2. Set it to false
+1. Copy this into the URL bar: `about:config?filter=xpinstall.signatures.required`
+2. Set it to `false`
 
 ## These rules expect uMatrix to be configured globally the following way:
 ### Matrix
