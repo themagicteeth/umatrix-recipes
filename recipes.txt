@@ -157,11 +157,16 @@ ADP
 
 Twitter
   twitter.com *
-    _ abs.twimg.com script
-    _ ton.twimg.com script
-    _ twitter.com *
-    _ video.twimg.com plugin
-    _ video.twimg.com xhr
+    _ abs-0.twimg.com script allow
+    _ abs.twimg.com script allow
+    _ api.twitter.com xhr allow
+    _ a.twimg.com css allow
+    _ ma.twimg.com image allow
+    _ mobile.twitter.com script allow
+    _ pbs.twimg.com image allow
+    _ ton.twimg.com script allow
+    _ twitter.com cookie allow
+    _ video.twimg.com * allow
 
 FreeCodeCamp Blog
   medium.freecodecamp.org *
