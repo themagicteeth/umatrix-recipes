@@ -4,156 +4,178 @@
 !
 ! Assumes the following rules in place:
 !
-!	https-strict: * true
-!	no-workers: * true
-!	noscript-spoof: * true
-!	referrer-spoof: * true
-!	* * * block
-!	* 1st-party css allow
-!	* 1st-party image allow
+! https-strict: * true
+! no-workers: * true
+! noscript-spoof: * true
+! referrer-spoof: * true
+! * * * block
+! * 1st-party css allow
+! * 1st-party image allow
 !
 ! Lines starting with character "!" are ignored.
 ! Character "_" is an alias for "currently selected scope".
 ! An empty line MUST be used to separate distinct ruleset recipes.
 
+Dunwoody
+  dunwoody.edu *
+    _ adfs.dunwoody.edu cookie
+    _ adfs.dunwoody.edu script
+
+Canvas
+  instructure.com *
+    _ canvasservices.evaluationkit.com script
+    _ du11hjcvx0uqb.cloudfront.net css
+    _ du11hjcvx0uqb.cloudfront.net image
+    _ du11hjcvx0uqb.cloudfront.net script
+    _ dunwoody.evaluationkit.com css
+    _ dunwoody.evaluationkit.com script
+    _ dunwoody.instructure.com cookie
+    _ dunwoody.instructure.com script
+    _ instructure-uploads.s3.amazonaws.com css
+    _ instructure-uploads.s3.amazonaws.com image
+    _ instructure-uploads.s3.amazonaws.com script
+
 Vue JS
-	vuejs.org *
-		_ cdn.jsdelivr.net script
-		_ vuejs.org script
+  vuejs.org *
+    _ cdn.jsdelivr.net script
+    _ vuejs.org script
 
 Poloniex
-	poloniex.com * 
-		poloniex.com script
-		poloniex.com xhr
-		! For login
-		poloniex.com cookie
+  poloniex.com *
+    poloniex.com script
+    poloniex.com xhr
+    ! For login
+    poloniex.com cookie
 
 Dropbox
-	dropbox.com *
-		_ 127.0.0.1 xhr
-		_ cfl.dropboxstatic.com css
-		_ cfl.dropboxstatic.com image
-		_ cfl.dropboxstatic.com script
-		_ dl.dropboxusercontent.com frame
-		_ www.dropbox.com cookie
-		_ www.dropbox.com script
-		_ www.dropbox.com xhr
-		_ www.dropboxstatic.com script
-		_ www.dropboxstatic.com xhr
+  dropbox.com *
+    _ 127.0.0.1 xhr
+    _ cfl.dropboxstatic.com css
+    _ cfl.dropboxstatic.com image
+    _ cfl.dropboxstatic.com script
+    _ dl.dropboxusercontent.com frame
+    _ www.dropbox.com cookie
+    _ www.dropbox.com script
+    _ www.dropbox.com xhr
+    _ www.dropboxstatic.com script
+    _ www.dropboxstatic.com xhr
 
 Fidelity
-	fidelity.com *
-		_ dpcs.fidelity.com xhr
-		_ fid-inv.com cookie
-		_ fidelity.com cookie
-		_ fidelity.com script
-		_ login.fidelity.com script
-		_ login.fidelity.com xhr
-		_ oltx.fidelity.com xhr
-		_ www.fid-inv.com *
+  fidelity.com *
+    _ dpcs.fidelity.com xhr
+    _ fid-inv.com cookie
+    _ fidelity.com cookie
+    _ fidelity.com script
+    _ login.fidelity.com script
+    _ login.fidelity.com xhr
+    _ oltx.fidelity.com xhr
+    _ www.fid-inv.com *
 
 Firefox Add-ons
-	addons.mozilla.org *
-		_ addons-amo.cdn.mozilla.net css
-		_ addons-amo.cdn.mozilla.net image
-		_ addons-amo.cdn.mozilla.net script
-		_ addons.cdn.mozilla.net image
-		_ addons.mozilla.org xhr
-		_ addons.mozilla.org cookie
+  addons.mozilla.org *
+    _ addons-amo.cdn.mozilla.net css
+    _ addons-amo.cdn.mozilla.net image
+    _ addons-amo.cdn.mozilla.net script
+    _ addons.cdn.mozilla.net image
+    _ addons.mozilla.org xhr
+    _ addons.mozilla.org cookie
 
 Mozilla Developer Network
-	developer.mozilla.org *
-		_ cdn.mdn.mozilla.net css
-		_ cdn.mdn.mozilla.net image
-                _ mdn.mozilla.net script
-                _ mdn.mozillademos.org frame
-                _ mdm.mozillademos.org script
-		_ mdn.mozillademos.org image
+  developer.mozilla.org *
+    _ cdn.mdn.mozilla.net css
+    _ cdn.mdn.mozilla.net image
+    _ mdn.mozilla.net script
+    _ mdn.mozillademos.org frame
+    _ mdm.mozillademos.org script
+    _ mdn.mozillademos.org image
 
 Firefox Accounts
-	accounts.firefox.com *
-		_ accounts-static.cdn.mozilla.net image
-		_ accounts-static.cdn.mozilla.net script
-		_ accounts.firefox.com cookie
-		_ accounts.firefox.com xhr
-		_ firefoxusercontent.com image
-		firefox.com accounts-static.cdn.mozilla.net css
+  accounts.firefox.com *
+    _ accounts-static.cdn.mozilla.net image
+    _ accounts-static.cdn.mozilla.net script
+    _ accounts.firefox.com cookie
+    _ accounts.firefox.com xhr
+    _ firefoxusercontent.com image
+    firefox.com accounts-static.cdn.mozilla.net css
 
 Stackoverflow
-	stackoverflow.com *
-		_ cdn.sstatic.net css
-		_ cdn.sstatic.net image
-		_ cdn.sstatic.net script
-		_ i.stack.imgur.com image
-		_ stackoverflow.com script
-		_ stackoverflow.com xhr
-                ! Gets rid of annoying enable javascript banner
-                noscript-spoof: _ false
+  stackoverflow.com *
+    _ cdn.sstatic.net css
+    _ cdn.sstatic.net image
+    _ cdn.sstatic.net script
+    _ i.stack.imgur.com image
+    _ stackoverflow.com script
+    _ stackoverflow.com xhr
+    ! Gets rid of annoying enable javascript banner
+    noscript-spoof: _ false
 
 Stackexchange
-       stackexchange.com * 
-              _ 1st-party * 
-              _ cdn.sstatic.net * 
-              _ cdn.sstatic.net script 
-              _ ajax.googleapis.com script
-              ! Gets rid of annoying enable javascript banner                      
-              noscript-spoof: _ false
+  stackexchange.com *
+    _ 1st-party *
+    _ cdn.sstatic.net *
+    _ cdn.sstatic.net script
+    _ ajax.googleapis.com script
+    _ *.stackexchange.com script
+    _ *.stackexchange.com xhr
+    _ cdn.sstatic.net image
+    ! Gets rid of annoying enable javascript banner
+    noscript-spoof: _ false
 
 Materialize CSS
-	materializecss.com *
-		_ fonts.googleapis.com css
-		_ fonts.gstatic.com css
-		_ lorempixel.com image
-		_ materializecss.com media
-		_ materializecss.com script
-		_ code.jquery.com script
+  materializecss.com *
+    _ fonts.googleapis.com css
+    _ fonts.gstatic.com css
+    _ lorempixel.com image
+    _ materializecss.com media
+    _ materializecss.com script
+    _ code.jquery.com script
 
 ADP
-	adp.com *
-		_ workforcenow.adp.com cookie
-		_ workforcenow.adp.com script
-		_ workforcenow.adp.com xhr
+  adp.com *
+    _ workforcenow.adp.com cookie
+    _ workforcenow.adp.com script
+    _ workforcenow.adp.com xhr
 
 
-FreeCodeCamp Blog		
-	medium.freecodecamp.org *
-		_ cdn-images-1.medium.com image
-		_ cdn-static-1.medium.com css
-		_ glyph.medium.com css
+FreeCodeCamp Blog
+  medium.freecodecamp.org *
+    _ cdn-images-1.medium.com image
+    _ cdn-static-1.medium.com css
+    _ glyph.medium.com css
 
 Reddit
-	reddit.com *
-		_ a.thumbs.redditmedia.com image
-		_ b.thumbs.redditmedia.com image
-		_ reddit.com cookie
-		_ www.reddit.com script
-		_ www.reddit.com xhr
-		_ www.redditstatic.com css
-		_ www.redditstatic.com image
-		_ www.redditstatic.com script
+  reddit.com *
+    _ a.thumbs.redditmedia.com image
+    _ b.thumbs.redditmedia.com image
+    _ reddit.com cookie
+    _ www.reddit.com script
+    _ www.reddit.com xhr
+    _ www.redditstatic.com css
+    _ www.redditstatic.com image
+    _ www.redditstatic.com script
 
 ProtonMail
-	protonmail.com *
-		_ mail.protonmail.com cookie
-		_ mail.protonmail.com script
-		_ mail.protonmail.com xhr
+  protonmail.com *
+    _ mail.protonmail.com cookie
+    _ mail.protonmail.com script
+    _ mail.protonmail.com xhr
 
 Sitepoint
-	sitepoint.com *
-		_ cdn-enterprise.discourse.org css
-		_ cdn-enterprise.discourse.org script
-		_ www.sitepoint.com xhr
+  sitepoint.com *
+    _ cdn-enterprise.discourse.org css
+    _ cdn-enterprise.discourse.org script
+    _ www.sitepoint.com xhr
 
 CSS Tricks
-	css-tricks.com 
-		_ codepen.io css
-		_ codepen.io frame
-		_ codepen.io script
-		_ s3-us-west-2.amazonaws.com image
+  css-tricks.com 
+    _ codepen.io css
+    _ codepen.io frame
+    _ codepen.io script
+    _ s3-us-west-2.amazonaws.com image
 
-Creative Bloq	
-	creativebloq.com *
-		_ cdn.mos.cms.futurecdn.net image
-		_ vanilla.futurecdn.net css
-		_ vanilla.futurecdn.net image
-		_ vanilla.futurecdn.net script
+Creative Bloq
+  creativebloq.com *
+    _ cdn.mos.cms.futurecdn.net image
+    _ vanilla.futurecdn.net css
+    _ vanilla.futurecdn.net image
+    _ vanilla.futurecdn.net script
