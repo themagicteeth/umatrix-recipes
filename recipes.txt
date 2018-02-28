@@ -111,7 +111,7 @@ YouTube
     _ s.ytimg.com script
     _ s.ytimg.com xhr
 
-GitHub
+GitHub - Account
   github.com *
     _ assets-cdn.github.com css
     _ assets-cdn.github.com image
@@ -123,7 +123,6 @@ GitHub
     _ render.githubusercontent.com frame
     _ render.githubusercontent.com script
     _ render.githubusercontent.com xhr
-    ! For login
     _ github.com cookie
 
 JellyKey
@@ -185,6 +184,14 @@ Firefox Accounts
     firefox.com accounts-static.cdn.mozilla.net css
     _ noscript-spoof: _ false
 
+Udemy - Account
+  udemy.com *
+  _ adaptive-streaming.udemy.com xhr
+  _ udemy-assets-on-demand.udemy.com media
+  _ www.udemy.com cookie
+  _ www.udemy.com script
+  _ www.udemy.com xhr
+
 Google
   google.com *
     _ 1st-party script
@@ -239,7 +246,6 @@ Stackoverflow
     _ i.stack.imgur.com image
     _ stackoverflow.com script
     _ stackoverflow.com xhr
-    ! Gets rid of annoying enable javascript banner
     noscript-spoof: _ false
 
 Bitwarden
