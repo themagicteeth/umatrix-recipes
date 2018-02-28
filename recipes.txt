@@ -295,6 +295,14 @@ Kickstarter
     _ s3.amazonaws.com image
     _ s3.amazonaws.com plugin
 
+Codecademy
+  codecademy.com *
+    _ maxcdn.bootstrapcdn.com css
+    _ production.cdmycdn.com css
+    _ production.cdmycdn.com image
+    _ production.cdmycdn.com script
+    _ codecademy.com cookie
+
 ADP
   adp.com *
     _ workforcenow.adp.com cookie
