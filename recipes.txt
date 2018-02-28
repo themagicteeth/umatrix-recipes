@@ -300,6 +300,17 @@ ADP
     _ workforcenow.adp.com cookie
     _ workforcenow.adp.com script
     _ workforcenow.adp.com xhr
+    _ workforcenow.adp.com frame
+
+Massdrop
+  massdrop.com *
+    _ cdn1.massdrop.com script
+    _ fonts.googleapis.com css
+    _ fonts.gstatic.com css
+    _ massdrop-s3.imgix.net image
+    _ www.massdrop.com cookie
+    _ www.massdrop.com script
+    _ www.massdrop.com xhr
 
 Twitter
   twitter.com *
@@ -343,6 +354,11 @@ Sitepoint
     _ cdn-enterprise.discourse.org script
     _ www.sitepoint.com xhr
 
+Material Icons
+  material.io *
+    _ material.io script
+    _ material.io xhr
+
 New York Times
   nytimes.com *
     _ g1.nyt.com script
@@ -365,7 +381,7 @@ Creative Bloq
 
 Scotch.io
   scotch.io *
-    _ scotch.io script allow
+    _ scotch.io script
 
 Yelp
   yelp.com *
