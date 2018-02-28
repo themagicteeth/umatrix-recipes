@@ -147,6 +147,25 @@ Firefox Add-ons
     _ addons.mozilla.org xhr
     _ addons.mozilla.org cookie
 
+Userstyles - No Account
+  userstyles.org *
+    _ cdnjs.cloudflare.com script
+    _ userstyles.org script
+    _ userstyles.org xhr
+
+Userstyles - Account
+  userstyles.org *
+    _ cdnjs.cloudflare.com script
+    _ userstyles.org script
+    _ userstyles.org xhr
+    _ userstyles.org cookie
+    _ userstyles.org frame
+
+jQuery
+  jquery.com *
+    _ api.jquery.com script
+    _ code.jquery.com script
+
 Mozilla Developer Network
   developer.mozilla.org *
     _ cdn.mdn.mozilla.net css
@@ -164,6 +183,7 @@ Firefox Accounts
     _ accounts.firefox.com xhr
     _ firefoxusercontent.com image
     firefox.com accounts-static.cdn.mozilla.net css
+    _ noscript-spoof: _ false
 
 Google
   google.com *
@@ -302,6 +322,16 @@ Codecademy
     _ production.cdmycdn.com image
     _ production.cdmycdn.com script
     _ codecademy.com cookie
+
+ASP.NET
+  asp.net *
+    _ forums-asp.azureedge.net css
+
+Alligator.io
+  alligator.io *
+    _ d33wubrfki0l68.cloudfront.net css
+    _ d33wubrfki0l68.cloudfront.net image
+    _ d33wubrfki0l68.cloudfront.net script
 
 ADP
   adp.com *
