@@ -34,7 +34,7 @@ Dunwoody
     _ adfs.dunwoody.edu cookie
     _ adfs.dunwoody.edu script
 
-Codewars
+Codewars - Account
   codewars.com *
     _ cdn.ravenjs.com script
     _ codewars.com cookie
@@ -169,7 +169,15 @@ JellyKey
     _ store.jellykey.com script
     _ www.jellykey.com script
 
-Firefox Add-ons
+Firefox Add-ons - No Account
+  addons.mozilla.org *
+    _ addons-amo.cdn.mozilla.net css
+    _ addons-amo.cdn.mozilla.net image
+    _ addons-amo.cdn.mozilla.net script
+    _ addons.cdn.mozilla.net image
+    _ addons.mozilla.org xhr
+
+Firefox Add-ons - Account
   addons.mozilla.org *
     _ addons-amo.cdn.mozilla.net css
     _ addons-amo.cdn.mozilla.net image
@@ -289,11 +297,10 @@ Bitwarden
     _ vault.bitwarden.com script
     _ vault.bitwarden.com xhr
 
-NexusMods
+NexusMods - Account
   nexusmods.com *
     1st-party script
     www.nexusmods.com xhr
-    ! For login
     nexusmods.com cookie
 
 Stackexchange
@@ -302,7 +309,6 @@ Stackexchange
     _ ajax.googleapis.com script
     _ stackexchange.com script
     _ stackexchange.com xhr
-    ! Gets rid of annoying enable javascript banner
     noscript-spoof: _ false
 
 Materialize CSS
@@ -378,7 +384,7 @@ ADP
     _ workforcenow.adp.com xhr
     _ workforcenow.adp.com frame
 
-Massdrop
+Massdrop - Account
   massdrop.com *
     _ cdn1.massdrop.com script
     _ fonts.googleapis.com css
@@ -407,11 +413,21 @@ FreeCodeCamp Blog
     _ cdn-static-1.medium.com css
     _ glyph.medium.com css
 
-Reddit
+Reddit - Account
   reddit.com *
     _ a.thumbs.redditmedia.com image
     _ b.thumbs.redditmedia.com image
     _ reddit.com cookie
+    _ www.reddit.com script
+    _ www.reddit.com xhr
+    _ www.redditstatic.com css
+    _ www.redditstatic.com image
+    _ www.redditstatic.com script
+
+Reddit - No Account
+  reddit.com *
+    _ a.thumbs.redditmedia.com image
+    _ b.thumbs.redditmedia.com image
     _ www.reddit.com script
     _ www.reddit.com xhr
     _ www.redditstatic.com css
