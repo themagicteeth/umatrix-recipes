@@ -471,9 +471,22 @@ Creative Bloq
     _ vanilla.futurecdn.net image
     _ vanilla.futurecdn.net script
 
+PizzaHut
+  pizzahut.com *
+    _ maps.googleapis.com script
+    _ www.pizzahut.com cookie
+    _ www.pizzahut.com script
+    _ www.pizzahut.com xhr
+
 Scotch.io
   scotch.io *
     _ scotch.io script
+
+Davannis - Order Online
+  davannisgoldenvalley.foodtecsolutions.com *
+    _ davannisgoldenvalley.foodtecsolutions.com cookie
+    _ davannisgoldenvalley.foodtecsolutions.com script
+    _ davannisgoldenvalley.foodtecsolutions.com xhr
 
 MicroCenter
   microcenter.com *
