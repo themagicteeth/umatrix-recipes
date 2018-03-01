@@ -136,6 +136,11 @@ Ars Technica
     _ cdn.arstechnica.net image
     _ cdn.arstechnica.net script
 
+Can I Use...
+  caniuse.com *
+    _ caniuse.com script
+    _ caniuse.com xhr
+
 YouTube
   youtube.com *
     _ google.com script
@@ -305,7 +310,9 @@ NexusMods - Account
 
 Stackexchange
   stackexchange.com *
-    _ cdn.sstatic.net *
+    _ cdn.sstatic.net css
+    _ cdn.sstatic.net image
+    _ cdn.sstatic.net script
     _ ajax.googleapis.com script
     _ stackexchange.com script
     _ stackexchange.com xhr
