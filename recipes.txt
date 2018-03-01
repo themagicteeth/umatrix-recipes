@@ -16,10 +16,26 @@
 ! Character "_" is an alias for "currently selected scope".
 ! An empty line MUST be used to separate distinct ruleset recipes.
 
+Amazon
+  amazon.com *
+    media-amazon.com css
+    media-amazon.com image
+    ssl-images-amazon.com css
+    ssl-images-amazon.com image
+    ssl-images-amazon.com script
+    www.amazon.com script
+
 Dunwoody
   dunwoody.edu *
     _ adfs.dunwoody.edu cookie
     _ adfs.dunwoody.edu script
+
+Codewars
+  codewars.com *
+    _ cdn.ravenjs.com script allow
+    _ codewars.com cookie allow
+    _ www.codewars.com script allow
+    _ www.codewars.com xhr allow
 
 Tachyons
  tachyons.io *
@@ -45,6 +61,13 @@ Canvas
     _ instructure-uploads.s3.amazonaws.com css
     _ instructure-uploads.s3.amazonaws.com image
     _ instructure-uploads.s3.amazonaws.com script
+
+Vim Awesome
+  vimawesome.com *
+    _ vimawesome.com script
+    _ vimawesome.com xhr
+    _ github.com image
+    _ raw.githubusercontent.com image
 
 Unsplash
   unsplash.com *
