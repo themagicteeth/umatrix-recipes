@@ -475,6 +475,14 @@ Scotch.io
   scotch.io *
     _ scotch.io script
 
+Coinbase - Account
+  coinbase.com *
+    _ assets.coinbase.com script
+    _ ws.coinbase.com xhr
+    _ www.coinbase.com cookie
+    _ www.coinbase.com script
+    _ www.coinbase.com xhr
+
 Yelp
   yelp.com *
     _ ajax.googleapis.com script
