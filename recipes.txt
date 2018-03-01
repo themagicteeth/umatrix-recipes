@@ -475,6 +475,18 @@ Scotch.io
   scotch.io *
     _ scotch.io script
 
+Hackernoon
+  hackernoon.com *
+    _ assets-cdn.github.com css
+    _ cdn-images-1.medium.com image
+    _ cdn-static-1.medium.com css
+    _ cdn-static-1.medium.com script
+    _ gist.github.com script
+    _ hackernoon.com frame
+    _ hackernoon.com script
+    _ medium.com frame
+    _ medium.com xhr
+
 Coinbase - Account
   coinbase.com *
     _ assets.coinbase.com script
