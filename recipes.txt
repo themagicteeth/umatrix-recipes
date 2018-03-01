@@ -46,6 +46,11 @@ Canvas
     _ instructure-uploads.s3.amazonaws.com image
     _ instructure-uploads.s3.amazonaws.com script
 
+Unsplash
+  unsplash.com *
+    _ unsplash.com script
+    _ unsplash.com unsplash.com xhr
+
 Vue JS
   vuejs.org *
     _ cdn.jsdelivr.net script
