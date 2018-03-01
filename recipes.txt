@@ -18,12 +18,16 @@
 
 Amazon
   amazon.com *
-    media-amazon.com css
-    media-amazon.com image
-    ssl-images-amazon.com css
-    ssl-images-amazon.com image
-    ssl-images-amazon.com script
-    www.amazon.com script
+    _ media-amazon.com css
+    _ media-amazon.com image
+    _ ssl-images-amazon.com css
+    _ ssl-images-amazon.com image
+    _ ssl-images-amazon.com script
+    _ www.amazon.com script
+
+Star Tribune
+  startribune.com *
+    _ stimg.co image
 
 Dunwoody
   dunwoody.edu *
@@ -32,10 +36,10 @@ Dunwoody
 
 Codewars
   codewars.com *
-    _ cdn.ravenjs.com script allow
-    _ codewars.com cookie allow
-    _ www.codewars.com script allow
-    _ www.codewars.com xhr allow
+    _ cdn.ravenjs.com script
+    _ codewars.com cookie
+    _ www.codewars.com script
+    _ www.codewars.com xhr
 
 Tachyons
  tachyons.io *
