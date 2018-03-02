@@ -16,6 +16,12 @@
 ! Character "_" is an alias for "currently selected scope".
 ! An empty line MUST be used to separate distinct ruleset recipes.
 
+Google Maps as 3rd Party
+  * maps.googleapis.com
+    _ maps.googleapis.com image
+    _ maps.googleapis.com script
+    _ chart.apis.google.com image
+
 Amazon
   amazon.com *
     _ media-amazon.com css
