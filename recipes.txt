@@ -83,11 +83,10 @@ Vue JS
     _ cdn.jsdelivr.net script
     _ vuejs.org script
 
-Poloniex
+Poloniex - Account
   poloniex.com *
     poloniex.com script
     poloniex.com xhr
-    ! For login
     poloniex.com cookie
 
 Dropbox
@@ -141,10 +140,25 @@ Can I Use...
     _ caniuse.com script
     _ caniuse.com xhr
 
+NewEgg - Account
+  newegg.com *
+    _ c1.neweggimages.com css
+    _ c1.neweggimages.com image
+    _ c1.neweggimages.com script
+    _ secure.newegg.com cookie
+    _ noscript-spoof: _ false
+
+NewEgg - No Account
+  newegg.com *
+    _ c1.neweggimages.com css
+    _ c1.neweggimages.com image
+    _ noscript-spoof: _ false
+
 CoinMarketCap
   coinmarketcap.com *
     _ graphs2.coinmarketcap.com xhr
     _ s2.coinmarketcap.com script
+    _ s2.coinmarketcap.com xhr
     _ www.reddit.com script
     _ cdn.syndication.twimg.com script
     _ pbs.twimg.com image
