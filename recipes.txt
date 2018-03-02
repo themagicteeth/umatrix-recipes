@@ -280,6 +280,33 @@ Google
     ! Chrome Extensions
     _ chrome.google.com xhr
 
+SplitShire
+  splitshire.com *
+    _ 3hsyn13u3q9dhgyrg2qh3tin-wpengine.netdna-ssl.com css
+    _ 3hsyn13u3q9dhgyrg2qh3tin-wpengine.netdna-ssl.com image
+    _ 3hsyn13u3q9dhgyrg2qh3tin-wpengine.netdna-ssl.com script
+    _ www.splitshire.com script
+
+Stockvault
+  stockvault.net *
+    _ www.stockvault.net script
+
+Pixabay
+  pixabay.com *
+    _ pixabay.com script
+
+Imcreator
+  imcreator.com *
+    _ app.imcreator.com media
+    _ ggpht.com image
+    _ imcreator.com script
+    _ imcreator.com xhr
+
+Unsplash
+  unsplash.com *
+    _ unsplash.com script
+    _ unsplash.com xhr
+
 Offset
   offset.com *
     _ ak.picdn.net image
@@ -291,11 +318,6 @@ Shutterstock
   shutterstock.com *
     _ www.shutterstock.com xhr
     _ www2.shutterstock.com script
-
-VimAwesome
-  vimawesome.com *
-    _ vimawesome.com script
-    _ vimawesome.com xhr
 
 CapitalOne
   capitalone.com *
