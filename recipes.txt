@@ -26,7 +26,12 @@ Google Maps as 3rd Party
 Vimeo as 3rd-party
   * player.vimeo.com
     _ vimeo.com script
+    _ vimeo.com image
+    _ akamaized.net image
+    _ 09-lvl3-pdl.vimeocdn.com media
     _ player.vimeo.com frame
+    _ player.vimeo.com css
+    _ player.vimeo.com xhr
     _ i.vimeocdn.com image
     _ vimeocdn.com css
     _ vimeocdn.com script
