@@ -264,11 +264,8 @@ Udemy - Account
 Google
   google.com *
     _ 1st-party script
-    _ ggpht.com image
     _ googleusercontent.com image
     _ kh.google.com xhr
-    _ maps.googleapis.com *
-    _ maps.gstatic.com image
     _ ssl.gstatic.com image
     _ www.google.com cookie
     _ www.google.com xhr
@@ -276,6 +273,17 @@ Google
     _ www.gstatic.com xhr
     _ www.gstatic.com image
     _ encrypted-tbn0.gstatic.com image
+    ! Maps
+    _ maps.googleapis.com *
+    _ maps.gstatic.com image
+    _ geo2.ggpht.com image
+    ! Chrome Extensions
+    _ chrome.google.com xhr
+
+VimAwesome
+  vimawesome.com *
+    _ vimawesome.com script
+    _ vimawesome.com xhr
 
 CapitalOne
   capitalone.com *
