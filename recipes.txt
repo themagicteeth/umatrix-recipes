@@ -18,9 +18,28 @@
 
 Google Maps as 3rd Party
   * maps.googleapis.com
+    _ maps.gstatic.com image
     _ maps.googleapis.com image
     _ maps.googleapis.com script
     _ chart.apis.google.com image
+
+Vimeo as 3rd-party
+  * player.vimeo.com
+    _ vimeo.com script
+    _ player.vimeo.com frame
+    _ i.vimeocdn.com image
+    _ vimeocdn.com css
+    _ vimeocdn.com script
+
+Youtube as 3rd-party
+ * youtube.com
+   _ youtube.com *
+   _ youtube.com script
+   _ youtube.com frame
+   _ googlevideo.com *
+   _ googlevideo.com xhr
+   _ ytimg.com *
+   _ ytimg.com script
 
 Amazon
   amazon.com *
@@ -34,14 +53,6 @@ Amazon
 Star Tribune
   startribune.com *
     _ stimg.co image
-
-Vimeo as 3rd-party
-  * player.vimeo.com
-    _ player.vimeo.com *
-    _ player.vimeo.com script
-    _ player.vimeo.com frame
-    _ vimeocdn.com *
-    _ vimeocdn.com script
 
 Dunwoody
   dunwoody.edu *
@@ -199,16 +210,6 @@ GitHub - Account
     _ render.githubusercontent.com script
     _ render.githubusercontent.com xhr
     _ github.com cookie
-
- Youtube as 3rd-party
-   * youtube.com
-     _ youtube.com *
-     _ youtube.com script
-     _ youtube.com frame
-     _ googlevideo.com *
-     _ googlevideo.com xhr
-     _ ytimg.com *
-     _ ytimg.com script
 
 JellyKey
    jellykey.com *
@@ -641,7 +642,6 @@ Coinbase - Account
 Yelp
   yelp.com *
     _ ajax.googleapis.com script
-    _ maps.googleapis.com image
     _ www.yelp.com xhr
     _ yelpcdn.com css
     _ yelpcdn.com image
