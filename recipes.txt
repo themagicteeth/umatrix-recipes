@@ -187,24 +187,31 @@ NewEgg - Account
     _ c1.neweggimages.com image
     _ c1.neweggimages.com script
     _ secure.newegg.com cookie
-    _ noscript-spoof: _ false
+    noscript-spoof: _ false
 
 NewEgg - No Account
   newegg.com *
     _ c1.neweggimages.com css
     _ c1.neweggimages.com image
-    _ noscript-spoof: _ false
+    noscript-spoof: _ false
 
 CoinMarketCap
   coinmarketcap.com *
     _ graphs2.coinmarketcap.com xhr
     _ s2.coinmarketcap.com script
     _ s2.coinmarketcap.com xhr
-    _ www.reddit.com script
+
+
+Twitter Third Party
+  * twitter.com
     _ cdn.syndication.twimg.com script
     _ pbs.twimg.com image
     _ platform.twitter.com css
     _ platform.twitter.com script
+
+Reddit Third Party
+  * reddit.com
+    _ www.reddit.com script
 
 YouTube
   youtube.com *
