@@ -29,6 +29,14 @@ Star Tribune
   startribune.com *
     _ stimg.co image
 
+Vimeo as 3rd-party
+  * player.vimeo.com
+    _ player.vimeo.com *
+    _ player.vimeo.com script
+    _ player.vimeo.com frame
+    _ vimeocdn.com *
+    _ vimeocdn.com script
+
 Dunwoody
   dunwoody.edu *
     _ adfs.dunwoody.edu cookie
@@ -186,6 +194,16 @@ GitHub - Account
     _ render.githubusercontent.com xhr
     _ github.com cookie
 
+ Youtube as 3rd-party
+   * youtube.com
+     _ youtube.com *
+     _ youtube.com script
+     _ youtube.com frame
+     _ googlevideo.com *
+     _ googlevideo.com xhr
+     _ ytimg.com *
+     _ ytimg.com script
+
 JellyKey
    jellykey.com *
     _ ajax.googleapis.com script
@@ -279,6 +297,11 @@ Google
     _ geo2.ggpht.com image
     ! Chrome Extensions
     _ chrome.google.com xhr
+
+PNG2JPG
+  png2jpg.com *
+    _ png2jpg.com script
+    _ png2jpg.com xhr
 
 SplitShire
   splitshire.com *
