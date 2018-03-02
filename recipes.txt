@@ -281,7 +281,7 @@ Firefox Accounts
     _ accounts.firefox.com xhr
     _ firefoxusercontent.com image
     firefox.com accounts-static.cdn.mozilla.net css
-    _ noscript-spoof: _ false
+    noscript-spoof: _ false
 
 Udemy - Account
   udemy.com *
@@ -290,6 +290,13 @@ Udemy - Account
   _ www.udemy.com cookie
   _ www.udemy.com script
   _ www.udemy.com xhr
+
+DeviantArt
+  deviantart.com
+    _ 1st-party image inherit
+    _ deviantart.net image allow
+    _ st.deviantart.net css allow
+    _ wp.com image allow
 
 Google
   google.com *
