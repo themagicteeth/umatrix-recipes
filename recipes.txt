@@ -64,6 +64,14 @@ GitHub Third Party
     _ gist.github.com script
     _ assets-cdn.github.com css
 
+Medium Third Party
+  * medium.com
+    _ cdn-images-1.medium.com image
+    _ cdn-static-1.medium.com css
+    _ glyph.medium.com css
+    _ cdn-static-1.medium.com script
+    _ medium.com frame
+
 Amazon
   amazon.com *
     _ media-amazon.com css
@@ -562,9 +570,7 @@ Twitter
 
 FreeCodeCamp Blog
   medium.freecodecamp.org *
-    _ cdn-images-1.medium.com image
-    _ cdn-static-1.medium.com css
-    _ glyph.medium.com css
+
 
 Reddit - Account
   reddit.com *
@@ -655,13 +661,8 @@ A Geek With A Hat
 
 Hackernoon
   hackernoon.com *
-    _ cdn-images-1.medium.com image
-    _ cdn-static-1.medium.com css
-    _ cdn-static-1.medium.com script
     _ hackernoon.com frame
     _ hackernoon.com script
-    _ medium.com frame
-    _ medium.com xhr
 
 Coinbase - Account
   coinbase.com *
