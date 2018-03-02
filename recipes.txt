@@ -280,6 +280,18 @@ Google
     ! Chrome Extensions
     _ chrome.google.com xhr
 
+Offset
+  offset.com *
+    _ ak.picdn.net image
+    _ cdn.offset.com script
+    _ offset.com cookie
+    _ www.offset.com xhr
+
+Shutterstock
+  shutterstock.com *
+    _ www.shutterstock.com xhr
+    _ www2.shutterstock.com script
+
 VimAwesome
   vimawesome.com *
     _ vimawesome.com script
