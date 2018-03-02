@@ -141,6 +141,16 @@ Can I Use...
     _ caniuse.com script
     _ caniuse.com xhr
 
+CoinMarketCap
+  coinmarketcap.com *
+    _ graphs2.coinmarketcap.com xhr
+    _ s2.coinmarketcap.com script
+    _ www.reddit.com script
+    _ cdn.syndication.twimg.com script
+    _ pbs.twimg.com image
+    _ platform.twitter.com css
+    _ platform.twitter.com script
+
 YouTube
   youtube.com *
     _ google.com script
