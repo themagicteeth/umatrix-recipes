@@ -318,6 +318,18 @@ Stackexchange
     _ stackexchange.com xhr
     noscript-spoof: _ false
 
+CNN
+  cnn.com *
+    _ www.cnn.com xhr
+    _ www.cnn.com script
+    _ www.i.cdn.cnn.com script
+
+Tumblr - Account
+  tumblr.com *
+    _ assets.tumblr.com script
+    _ tumblr.com cookie
+    _ www.tumblr.com xhr
+
 The Gaurdian
   theguardian.com *
     _ i.guim.co.uk image
