@@ -264,6 +264,7 @@ Firefox Add-ons - No Account
     _ addons-amo.cdn.mozilla.net image
     _ addons-amo.cdn.mozilla.net script
     _ addons.cdn.mozilla.net image
+    _ addons.cdn.mozilla.net css
     _ addons.mozilla.org xhr
 
 Firefox Add-ons - Account
@@ -274,6 +275,7 @@ Firefox Add-ons - Account
     _ addons.cdn.mozilla.net image
     _ addons.mozilla.org xhr
     _ addons.mozilla.org cookie
+    _ addons.cdn.mozilla.net css
 
 Userstyles - No Account
   userstyles.org *
@@ -566,11 +568,6 @@ Twitter
     _ pbs.twimg.com image
     _ ton.twimg.com script
     _ twitter.com cookie
-
-
-FreeCodeCamp Blog
-  medium.freecodecamp.org *
-
 
 Reddit - Account
   reddit.com *
