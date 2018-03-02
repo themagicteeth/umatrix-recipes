@@ -17,7 +17,7 @@
 ! An empty line MUST be used to separate distinct ruleset recipes.
 
 !!!! 3rd Party Services !!!!
-! TODO: Twitter, GitHub, Reddit, Imgur, Gfycat, CodePen
+! TODO: GitHub, Imgur, Gfycat, CodePen
 Google Maps as 3rd Party
   * maps.googleapis.com
     _ maps.gstatic.com image
@@ -47,6 +47,22 @@ Youtube as 3rd-party
    _ googlevideo.com xhr
    _ ytimg.com *
    _ ytimg.com script
+
+Twitter Third Party
+  * twitter.com
+    _ cdn.syndication.twimg.com script
+    _ pbs.twimg.com image
+    _ platform.twitter.com css
+    _ platform.twitter.com script
+
+Reddit Third Party
+  * reddit.com
+    _ www.reddit.com script
+
+GitHub Third Party
+  * github.com
+    _ gist.github.com script
+    _ assets-cdn.github.com css
 
 Amazon
   amazon.com *
@@ -200,18 +216,6 @@ CoinMarketCap
     _ graphs2.coinmarketcap.com xhr
     _ s2.coinmarketcap.com script
     _ s2.coinmarketcap.com xhr
-
-
-Twitter Third Party
-  * twitter.com
-    _ cdn.syndication.twimg.com script
-    _ pbs.twimg.com image
-    _ platform.twitter.com css
-    _ platform.twitter.com script
-
-Reddit Third Party
-  * reddit.com
-    _ www.reddit.com script
 
 YouTube
   youtube.com *
@@ -651,11 +655,9 @@ A Geek With A Hat
 
 Hackernoon
   hackernoon.com *
-    _ assets-cdn.github.com css
     _ cdn-images-1.medium.com image
     _ cdn-static-1.medium.com css
     _ cdn-static-1.medium.com script
-    _ gist.github.com script
     _ hackernoon.com frame
     _ hackernoon.com script
     _ medium.com frame
