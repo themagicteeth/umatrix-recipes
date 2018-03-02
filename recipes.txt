@@ -16,6 +16,8 @@
 ! Character "_" is an alias for "currently selected scope".
 ! An empty line MUST be used to separate distinct ruleset recipes.
 
+!!!! 3rd Party Services !!!!
+! TODO: Twitter, GitHub, Reddit, Imgur, Gfycat, CodePen
 Google Maps as 3rd Party
   * maps.googleapis.com
     _ maps.gstatic.com image
@@ -132,6 +134,13 @@ Dropbox
     _ www.dropboxstatic.com script
     _ www.dropboxstatic.com xhr
 
+CornerStone
+  mycornerstoneloan.org *
+    _ myaccount.mycornerstoneloan.org cookie
+    _ myaccount.mycornerstoneloan.org media
+    _ myaccount.mycornerstoneloan.org script
+    _ myaccount.mycornerstoneloan.org xhr
+
 Fidelity
   fidelity.com *
     _ dpcs.fidelity.com xhr
@@ -141,7 +150,9 @@ Fidelity
     _ login.fidelity.com script
     _ login.fidelity.com xhr
     _ oltx.fidelity.com xhr
-    _ www.fid-inv.com *
+    _ www.fid-inv.com css
+    _ www.fid-inv.com image
+    _ www.fid-inv.com script
 
 DeployHQ
   deployhq.com *
