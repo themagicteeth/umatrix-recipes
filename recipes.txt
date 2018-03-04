@@ -79,6 +79,7 @@ Khan Academy
   _ cdn.kastatic.org script 
   _ cdn.kastatic.org xhr 
   _ www.khanacademy.org xhr 
+  _ noscript-spoof: _ false
 
 Amazon
   amazon.com *
@@ -108,6 +109,19 @@ Spotify - Account
 Star Tribune
   startribune.com *
     _ stimg.co image
+
+Javascript 30
+javascript30.com
+    _ akamaized.net image
+    _ s3.amazonaws.com image 
+Wes Bos
+  wesbos.com * 
+    _ ajax.googleapis.com script
+    _ akamaized.net image
+    _ cdnjs.cloudflare.com css
+    _ courses.wesbos.com script
+    _ courses.wesbos.com xhr
+    referrer-spoof: _ false
 
 Dunwoody
   dunwoody.edu *
@@ -142,6 +156,7 @@ Canvas
     _ dunwoody.evaluationkit.com script
     _ dunwoody.instructure.com cookie
     _ dunwoody.instructure.com script
+    _ dunwoody.instructure.com xhr 
     _ instructure-uploads.s3.amazonaws.com css
     _ instructure-uploads.s3.amazonaws.com image
     _ instructure-uploads.s3.amazonaws.com script
