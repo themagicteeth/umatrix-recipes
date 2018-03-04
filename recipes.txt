@@ -40,12 +40,13 @@ Vimeo as 3rd-party
 
 Youtube as 3rd-party
  * youtube.com
-   _ youtube.com *
+   _ youtube.com image
+   _ youtube.com css 
    _ youtube.com script
    _ youtube.com frame
-   _ googlevideo.com *
+   _ youtube.com xhr 
    _ googlevideo.com xhr
-   _ ytimg.com *
+   _ ytimg.com image 
    _ ytimg.com script
 
 Twitter Third Party
@@ -71,6 +72,13 @@ Medium Third Party
     _ glyph.medium.com css
     _ cdn-static-1.medium.com script
     _ medium.com frame
+
+Khan Academy
+ khanacademy.org *
+  _ cdn.kastatic.org css
+  _ cdn.kastatic.org script 
+  _ cdn.kastatic.org xhr 
+  _ www.khanacademy.org xhr 
 
 Amazon
   amazon.com *
@@ -248,11 +256,6 @@ YouTube
     _ s.ytimg.com script
     _ s.ytimg.com xhr
 
-Purplemath
-  purplemath.com * 
-    _ data.wyzant.com image block
-    _ www.mathhelp.com image block
-
 GitHub - Account
   github.com *
     _ assets-cdn.github.com css
@@ -270,6 +273,12 @@ GitHub - Account
     _ github.com cookie
     _ github.com xhr
     _ camo.githubusercontent.com image
+
+Papa Johns
+  papajohns.com *
+    _ www.papajohns.com cookie
+    _ www.papajohns.com script 
+    _ www.papajohns.com xhr
 
 JellyKey
    jellykey.com *
