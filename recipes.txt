@@ -81,6 +81,22 @@ Amazon
     _ ssl-images-amazon.com script
     _ www.amazon.com script
 
+Hulu - Sign Up
+  hulu.com *
+    _ signup.hulu.com script
+    _ signup.hulu.com xhr
+
+Spotify - Account
+  spotify.com *
+    _ accounts.spotify.com cookie
+    _ accounts.spotify.com xhr
+    _ d2d1dxiu3v1f2i.cloudfront.net css
+    _ d2d1dxiu3v1f2i.cloudfront.net script
+    _ spotify.com cookie
+    _ www.scdn.co css
+    _ www.scdn.co image
+    _ www.spotify.com script
+
 Star Tribune
   startribune.com *
     _ stimg.co image
@@ -232,6 +248,11 @@ YouTube
     _ s.ytimg.com script
     _ s.ytimg.com xhr
 
+Purplemath
+  purplemath.com 
+    _ data.wyzant.com image block
+    _ www.mathhelp.com image block
+
 GitHub - Account
   github.com *
     _ assets-cdn.github.com css
@@ -244,7 +265,11 @@ GitHub - Account
     _ render.githubusercontent.com frame
     _ render.githubusercontent.com script
     _ render.githubusercontent.com xhr
+    _ cloud.githubusercontent.com image
+    _ user-images.githubusercontent.com image
     _ github.com cookie
+    _ github.com xhr
+    _ camo.githubusercontent.com image
 
 JellyKey
    jellykey.com *
