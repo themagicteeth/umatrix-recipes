@@ -157,7 +157,6 @@ Imgur
 
 Canvas
   instructure.com *
-    _ canvasservices.evaluationkit.com script
     _ canvasservices.evaluationkit.com xhr 
     _ canvasservices.evaluationkit.com frame
     _ du11hjcvx0uqb.cloudfront.net css
