@@ -38,6 +38,11 @@ Vimeo as 3rd-party
     _ vimeocdn.com css
     _ vimeocdn.com script
 
+MathJax as 3rd-party
+  * cdn.mathjax.org 
+    _ cdn.mathjax.org script
+    _ cdnjs.cloudflare.com script
+
 Youtube as 3rd-party
  * youtube.com
    _ youtube.com image
