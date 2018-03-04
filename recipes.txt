@@ -249,7 +249,7 @@ YouTube
     _ s.ytimg.com xhr
 
 Purplemath
-  purplemath.com 
+  purplemath.com * 
     _ data.wyzant.com image block
     _ www.mathhelp.com image block
 
