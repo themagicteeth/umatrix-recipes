@@ -111,9 +111,10 @@ Star Tribune
     _ stimg.co image
 
 Javascript 30
-javascript30.com
-    _ akamaized.net image
-    _ s3.amazonaws.com image 
+  javascript30.com
+      _ akamaized.net image
+      _ s3.amazonaws.com image 
+
 Wes Bos
   wesbos.com * 
     _ ajax.googleapis.com script
@@ -122,6 +123,14 @@ Wes Bos
     _ courses.wesbos.com script
     _ courses.wesbos.com xhr
     referrer-spoof: _ false
+
+wikiHow
+  wikihow.com *
+    _ www.wikihow.com script 
+
+Purism
+  puri.sm *
+    _ forums.puri.sm script
 
 Dunwoody
   dunwoody.edu *
@@ -149,15 +158,19 @@ Imgur
 Canvas
   instructure.com *
     _ canvasservices.evaluationkit.com script
+    _ canvasservices.evaluationkit.com xhr 
+    _ canvasservices.evaluationkit.com frame
     _ du11hjcvx0uqb.cloudfront.net css
     _ du11hjcvx0uqb.cloudfront.net image
     _ du11hjcvx0uqb.cloudfront.net script
-    _ dunwoody.evaluationkit.com css
-    _ dunwoody.evaluationkit.com script
-    _ dunwoody.instructure.com cookie
-    _ dunwoody.instructure.com script
-    _ dunwoody.instructure.com xhr 
+    _ evaluationkit.com css
+    _ evaluationkit.com script
+    _ instructure.com cookie
+    _ instructure.com frame 
+    _ instructure.com script
+    _ instructure.com xhr 
     _ instructure-uploads.s3.amazonaws.com css
+    _ instructure-uploads.s3.amazonaws.com xhr 
     _ instructure-uploads.s3.amazonaws.com image
     _ instructure-uploads.s3.amazonaws.com script
 
