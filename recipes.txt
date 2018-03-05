@@ -39,19 +39,19 @@ Vimeo as 3rd-party
     _ vimeocdn.com script
 
 MathJax as 3rd-party
-  * cdn.mathjax.org 
+  * cdn.mathjax.org
     _ cdn.mathjax.org script
     _ cdnjs.cloudflare.com script
 
 Youtube as 3rd-party
  * youtube.com
    _ youtube.com image
-   _ youtube.com css 
+   _ youtube.com css
    _ youtube.com script
    _ youtube.com frame
-   _ youtube.com xhr 
+   _ youtube.com xhr
    _ googlevideo.com xhr
-   _ ytimg.com image 
+   _ ytimg.com image
    _ ytimg.com script
 
 Twitter Third Party
@@ -70,6 +70,15 @@ GitHub Third Party
     _ gist.github.com script
     _ assets-cdn.github.com css
 
+Imgur 3rd-party
+  * imgur.com
+    _ imgur.com media
+    _ imgur.com image
+
+Gfycat 3rd-party
+  * gyfcat.com
+    _ gyfcat.com media
+
 Medium Third Party
   * medium.com
     _ cdn-images-1.medium.com image
@@ -78,13 +87,34 @@ Medium Third Party
     _ cdn-static-1.medium.com script
     _ medium.com frame
 
+reCaptcha
+  * www.google.com
+    _ www.google.com css
+    _ www.google.com frame
+    _ www.google.com image
+    _ www.google.com script
+    _ www.google.com xhr
+    _ www.gstatic.com css
+    _ www.gstatic.com image
+    _ www.gstatic.com script
+
 Khan Academy
  khanacademy.org *
-  _ cdn.kastatic.org css
-  _ cdn.kastatic.org script 
-  _ cdn.kastatic.org xhr 
-  _ www.khanacademy.org xhr 
-  _ noscript-spoof: _ false
+    _ cdn.kastatic.org css
+    _ cdn.kastatic.org script
+    _ cdn.kastatic.org xhr
+    _ www.khanacademy.org xhr
+    _ noscript-spoof: _ false
+
+Humble Bundle
+  humblebundle.com *
+    _ humblebundle-a.akamaihd.net css
+    _ humblebundle-a.akamaihd.net image
+    _ humblebundle-a.akamaihd.net script
+    _ humblebundle.imgix.net image
+    _ www.humblebundle.com cookie
+    _ www.humblebundle.com script
+    _ www.humblebundle.com xhr
 
 Amazon
   amazon.com *
@@ -118,10 +148,10 @@ Star Tribune
 Javascript 30
   javascript30.com
       _ akamaized.net image
-      _ s3.amazonaws.com image 
+      _ s3.amazonaws.com image
 
 Wes Bos
-  wesbos.com * 
+  wesbos.com *
     _ ajax.googleapis.com script
     _ akamaized.net image
     _ cdnjs.cloudflare.com css
@@ -131,7 +161,7 @@ Wes Bos
 
 wikiHow
   wikihow.com *
-    _ www.wikihow.com script 
+    _ www.wikihow.com script
 
 Purism
   puri.sm *
@@ -170,7 +200,7 @@ Hooktube
 
 Canvas
   instructure.com *
-    _ canvasservices.evaluationkit.com xhr 
+    _ canvasservices.evaluationkit.com xhr
     _ canvasservices.evaluationkit.com frame
     _ du11hjcvx0uqb.cloudfront.net css
     _ du11hjcvx0uqb.cloudfront.net image
@@ -178,11 +208,11 @@ Canvas
     _ evaluationkit.com css
     _ evaluationkit.com script
     _ instructure.com cookie
-    _ instructure.com frame 
+    _ instructure.com frame
     _ instructure.com script
-    _ instructure.com xhr 
+    _ instructure.com xhr
     _ instructure-uploads.s3.amazonaws.com css
-    _ instructure-uploads.s3.amazonaws.com xhr 
+    _ instructure-uploads.s3.amazonaws.com xhr
     _ instructure-uploads.s3.amazonaws.com image
     _ instructure-uploads.s3.amazonaws.com script
 
@@ -317,7 +347,7 @@ GitHub - Account
 Papa Johns
   papajohns.com *
     _ www.papajohns.com cookie
-    _ www.papajohns.com script 
+    _ www.papajohns.com script
     _ www.papajohns.com xhr
 
 JellyKey
