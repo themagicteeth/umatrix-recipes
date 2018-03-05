@@ -190,6 +190,17 @@ Codewars - Account
     _ www.codewars.com script
     _ www.codewars.com xhr
 
+Read The Docs
+  * readthedocs.io
+    _ media.readthedocs.org css
+
+Kaggle
+  kaggle.com *
+    _ kaggle2.blob.core.windows.net image
+    _ www.kaggle.com cookie
+    _ www.kaggle.com script
+    _ www.kaggle.com xhr
+
 Tachyons
  tachyons.io *
     _ unpkg.com css
