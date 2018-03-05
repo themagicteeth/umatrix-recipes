@@ -66,6 +66,21 @@ them by clicking the lock icon.
 ![Applying a recipe](https://github.com/themagicteeth/umatrix-recipes/raw/master/imgs/ApplyingRecipe.JPG "Applying a recipe")
 
 
+## Complementary Add-ons
+### [Decentraleyes](https://github.com/Synzvato/decentraleyes)
+>A web browser extension that emulates Content Delivery Networks to improve your online privacy.
+It intercepts traffic, finds supported resources locally, and injects them into the environment.
+
+[Download it here.](https://addons.mozilla.org/en-US/firefox/addon/decentraleyes)
+
+Once installed there is no additional configuration required. You can continue to use uMatrix the same way as before.
+ 
+When a resource that Decentraleyes has locally is requested it will serve the local resource instead of the hosted one. 
+**You still need to allow the domain on a per site basis** otherwise it will not do anything. 
+
+It is advised to **not** globally add rules for the sites supported by Decentraleyes, and
+instead allow only when required.
+
 ## Resources    
 [uMatrix Examples of Useful Rulesets](https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets)    
 [uMatrix Recipes](https://github.com/kristerkari/umatrix-recipes)    
