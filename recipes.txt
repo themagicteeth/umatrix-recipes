@@ -163,6 +163,17 @@ wikiHow
   wikihow.com *
     _ www.wikihow.com script
 
+MNSure
+  mnsure.org *
+    mn.gov id.mneiam.mn.gov cookie
+    _ auth.mnsure.org script
+    _ mnsure.org cookie
+    _ people.mnsure.org frame
+    _ people.mnsure.org script
+    _ people.mnsure.org xhr
+    _ plans.mnsure.org frame
+    _ www.mnsure.org script
+
 Purism
   puri.sm *
     _ forums.puri.sm script
